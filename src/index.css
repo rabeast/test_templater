@@ -261,6 +261,10 @@ body {
 }
 
 /*materializeCSS*/
+.waves-effect { 
+  z-index: 0 !important;
+}
+
 [type="checkbox"].filled-in:not(:checked) + span:not(.lever)::after {
   border: 1px solid white !important;
 }
